@@ -82,7 +82,7 @@ Student-Data-Organizer/
 4. Run the following command:
 
 ```bash
-python student_data_organizer.py
+python Student_Data_Organizer-Task3.py
 ```
 
 ---
