@@ -110,14 +110,9 @@ python Student_Data_Organizer-Task3.py
 ![output](Output2.png)
 ![output](Output3.png)
 
-## 🎥 Project Demonstration
+## 🎥 Video Demonstration
 
-Add your GitHub video link below.
-
-```text
-https://github.com/your-username/Student-Data-Organizer/blob/main/demo.mp4
-```
----
+ video link:[https://drive.google.com/file/d/1szKXLYfcEaLiAUzmsiQfQR0pLsSi7NIa/view?usp=sharing] 
 
 ## 💭 Assumptions
 
