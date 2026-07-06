@@ -74,23 +74,12 @@ Student-Data-Organizer/
 
 ---
 
-## ▶️ Getting Started
+## ▶️ How to Run
 
-### Step 1
-
-Install Python 3.x on your computer.
-
-### Step 2
-
-Clone or download this repository.
-
-### Step 3
-
-Open the project in Visual Studio Code.
-
-### Step 4
-
-Run the following command:
+1. Install Python 3.x on your computer.
+2. Clone or download this repository.
+3. Open the project in Visual Studio Code.
+4. Run the following command:
 
 ```bash
 python student_data_organizer.py
