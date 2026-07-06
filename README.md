@@ -117,24 +117,9 @@ python student_data_organizer.py
 ## 📷 Program Output
 
 ### Main Menu
-
-```md
-![Main Menu](images/output1.png)
-```
-
-### Student Details
-
-```md
-![Student Details](images/output2.png)
-```
-
-### Subjects Offered
-
-```md
-![Subjects](images/output3.png)
-```
-
----
+![output](Output1.png)
+![output](Output2.png)
+![output](Output3.png)
 
 ## 🎥 Project Demonstration
 
