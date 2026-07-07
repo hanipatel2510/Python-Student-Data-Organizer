@@ -39,7 +39,7 @@ This project demonstrates the practical use of Python collections such as Dictio
 
 ### 🗑 Delete Student
 
-* Remove a student record from the database.
+* Delete a student record from the database.
 
 ### 📚 Display Subjects Offered
 
