@@ -8,7 +8,7 @@ while True:
     print("4. Delete Student")
     print("5. Display Subjects offered")
     print("6. Exit")
-    choice1 = int(input("Enter your choice(1-6): "))
+    choice1 = int(input("Enter your choice: "))
 
     match choice1:
         case 1:
@@ -92,7 +92,6 @@ while True:
             for student2 in student_records:
                 all_subjects.update(student2["Subject"])
             
-            print("--- Display Subjects Offered ---")
             if all_subjects:
                 print(", ".join(all_subjects))
             else:
