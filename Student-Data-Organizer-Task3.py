@@ -26,7 +26,7 @@ while True:
                 stu_age=int(input("Age:"))
                 stu_grade=input("Grade:")
                 stu_DOB=input("Date Of Birth (yyyy-mm-dd): ")
-                stu_sub=set(map(str.strip, input("Subjects: ").split(","))) 
+                stu_sub=set(map(str.strip, input("Subjects (comma-separated): ").split(","))) 
                 tuple1=(stu_id, stu_DOB)
                 student_list={
                     "ID":tuple1,
@@ -38,7 +38,7 @@ while True:
                 }
                 student_records.append(student_list)
 
-                print("\nstudent  data successfuly added!")
+                print("\nstudent added successfully!")
 
         case 2:
             print("\n------Display All Students-----")
@@ -62,13 +62,13 @@ while True:
                             print("Invalid Age!")
                         else:
                             student2["Age"] = new_age
-                            print("Age is updated successfully!")
+                            print("\nAge is updated successfully!")
                             break
 
                     elif update_choice == 2:
                         new_sub=set(map(str.strip, input("enter new subject: ").split(",")))
                         student2["Subject"].update(new_sub)
-                        print("subject is added successfully!")
+                        print("\nsubject is added successfully!")
                         break
                     else:
                         print("Invalid choice!")
@@ -81,7 +81,7 @@ while True:
             for s in range(len(student_records)):
                 if student_records[s]["ID"][0] == stu_id:
                     del student_records[s]
-                    print("student deleted successfully!")
+                    print("\nstudent deleted successfully!")
                     break
             else:
                 print("Student ID not found!")
