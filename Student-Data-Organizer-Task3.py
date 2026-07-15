@@ -17,7 +17,7 @@ while True:
 
             stu_id2 = False
             for student in student_records:
-                if student["ID"][0] == stu_id:
+                if student["ID"] == stu_id:
                     print("student id is already exists!")
                     break
 
@@ -27,12 +27,11 @@ while True:
                 stu_grade=input("Grade:")
                 stu_DOB=input("Date Of Birth (yyyy-mm-dd): ")
                 stu_sub=set(map(str.strip, input("Subjects (comma-separated): ").split(","))) 
-                tuple1=(stu_id, stu_DOB)
                 student_list={
-                    "ID":tuple1,
+                    "ID":stu_id,
                     "Name": stu_name,
                     "Age":stu_age,
-                    "DOB":tuple1,
+                    "DOB":stu_DOB,
                     "Grade":stu_grade,
                     "Subject":stu_sub
                 }
@@ -46,12 +45,12 @@ while True:
                 print("student data is not found!")
             else:
                 for student in student_records:
-                    print(f"Student ID : {student['ID'][0]} | Name : {student['Name']} | Age : {student['Age']} | Grade : {student['Grade']} | DOB : {student['DOB'][1]} | Subjects : {', '.join(student['Subject'])}")        
+                    print(f"Student ID : {student['ID']} | Name : {student['Name']} | Age : {student['Age']} | Grade : {student['Grade']} | DOB : {student['DOB']} | Subjects : {', '.join(student['Subject'])}")        
         case 3:
             print("------Update Student Information-----")
             stu_id = int(input("enter student ID:"))
             for student2 in student_records:
-                if student2["ID"][0] == stu_id:
+                if student2["ID"] == stu_id:
                     print("1. update age")
                     print("2. add subject")
 
@@ -79,7 +78,7 @@ while True:
             print("------Delete Student Record-----")
             stu_id=int(input("enter id:"))
             for s in range(len(student_records)):
-                if student_records[s]["ID"][0] == stu_id:
+                if student_records[s]["ID"] == stu_id:
                     del student_records[s]
                     print("\nstudent deleted successfully!")
                     break
